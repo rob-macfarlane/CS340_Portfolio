@@ -28,3 +28,5 @@ Sam Parkman, Rob MacFarlane
  Samuel Parkman (December 2022) Full Stack MERN App (Version 1.0) [Source code] https://canvas.oregonstate.edu/courses/1890443/assignments/8992991/submissions/6491204
 
  React Starter Code (July 2023) React Starter Code [Source Code] https://react.dev/learn/start-a-new-react-project
+
+ [Oregon State DB.pdf](https://github.com/rob-macfarlane/CS340_Portfolio/files/12308307/Oregon.State.DB.pdf)
