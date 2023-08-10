@@ -1,0 +1,260 @@
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+
+
+/*   ----- Imports  -----  */
+  /* Add fonts from the app's server 
+    @font-face {                
+      font-family: 'FontName';
+      src: url('FontName.woff2') format('woff2');
+    } 
+    ...or hosted services like Google Fonts 
+    @import url(//fonts.googleapis.com/css?family=Font+Name);
+  */
+  
+  /* @import 'node_modules/modern-normalize/modern-normalize.css'; */
+        /* npm install modern-normalize
+          Resets elements for browser consistency.  
+          https://www.npmjs.com/package/modern-normalize
+        */         
+  
+  /* Component-specific stylesheets, if any. 
+    @import "component1.css";   
+  */
+
+/*   ----- Variables  -----  */
+:root {
+  --oregonOrange: #ff9100;
+  --tableBackground: #f3f1ed;
+  --custom-embellishment-name:;
+}
+
+/*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+body {       /* Can alternatively define in html {} or :root {} */
+  background-color:rgb(49, 48, 48);
+  background-image:;
+  color:white;
+  font-family:; /* Define with at least one font name and its related generic family name.*/
+
+  margin:auto;
+  padding: 0 200px;
+  min-width: 350px;
+  max-width: 75%;
+}
+
+/*  ----- Page layout blocks -----  */
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--oregonOrange);
+
+}
+main {}
+section {}
+  article {}
+    #topic1 {}
+    #topic2 {}
+div {}
+aside {}
+footer {}
+
+/* ----- Anchors ----- Text links */
+a {}
+a:link {}
+a:hover {}
+a:active {}
+a:visited {}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav a {
+  color: white;
+  margin: 1px;
+  padding: 5px;
+}
+nav a:hover{
+  color: purple;
+}
+nav{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+/*nav a:hover {}
+
+/*  -----  Typography  ----- */
+p {
+  border: 2px;
+}
+br {}
+ol, ul, dl {}
+li {}
+dt {}
+dd {}
+
+h1, h2, h3, h4, h5, h6 {} 
+h1 {
+}
+h2 {
+  position: absolute;
+  left: 100px;
+}
+h3 {
+  
+}
+h4 {
+  
+}
+h5 {}
+h6 {}
+
+abbr {}
+acronym {}
+address {}
+blockquote {}
+  q {}
+  cite {}
+em {}
+hr {}
+mark {}
+s {}
+span {}
+strong {}
+sub {}
+sup {}
+time {}
+
+label {
+  padding: 0px;
+  margin: 5px;
+}
+/*  ----- Coding or instructional typography ----- */
+pre {}
+code {}
+kbd {}
+samp {}
+var {}
+del {} 
+ins {}
+section{ 
+
+}
+/*  ----- Table ----- */
+table, tbody, th, td, tr {
+  border: 1px solid black;
+  color: black;
+
+}
+table {
+  background-color: var(--tableBackground);
+  border-collapse: collapse;
+}
+
+caption {}
+thead {}
+tbody {
+  background-color: var(--tableBackground);
+}
+tfoot {}
+tr {
+}
+tr:hover {
+  background-color: var(--oregonOrange);
+  /* font-size: 30px; */
+
+}
+
+td:hover {
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+}
+
+  tr:nth-child(even) {}
+th {
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+td {
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+  td:nth-child(1) {}
+colgroup {}
+data {}
+datalist {}
+
+
+/*  ----- Form ----- */
+form {}
+fieldset {
+}
+  legend {}
+label {}
+  button {}
+  input {margin-left: 5px;}
+  output {}
+  meter {}
+  progress {}
+  select {}
+    optgroup {}
+    option {}
+  textarea {}
+
+/* ----- Media ----- */
+figure {}
+  figcaption {}
+  figure img {}
+svg {}
+picture {}
+  source {}
+iframe {}
+video {}
+audio {}
+embed {}
+object {}
+img {
+
+  height: 100px;
+  width: 400px;
+  display: flex;
+  
+
+}
+
+/*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.gallery {}
+
+.floatright {}
+.floatleft {}
+.center-middle {}
+
+.ten {}
+.twenty {}
+.thirty {}
+.forty {}
+.fifty {}
+.sixty {}
+.seventy {}
+.eighty {}
+
+.radius {}
+.circle {}
+.boxshadow {}
+.tshadow {} 
+.gradient {}
+.shape {}
+
+@keyframes App-logo {}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {}
