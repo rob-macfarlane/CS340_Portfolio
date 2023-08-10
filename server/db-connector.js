@@ -6,7 +6,7 @@
 //     connectionLimit : 10,
 //     host            : 'classmysql.engr.oregonstate.edu',
 //     user            : 'cs340_macfarro',
-//     password        : 'W2JsB5i0YASM',
+//     password        : '',
 //     database        : 'cs340_macfarro'
 // })
 
@@ -20,7 +20,7 @@ var pool = mysql.createPool({
     connectionLimit: 10,
     host            : 'classmysql.engr.oregonstate.edu',
     user            : 'cs340_parkmans',
-    password        : '0423',
+    password        : '',
     database        : 'cs340_parkmans'
 })
 
